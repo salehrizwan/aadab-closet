@@ -1,0 +1,6 @@
+{
+  "name": "Aadab Closet",
+  "description": "Luxury Women's Designer Clothing Brand - Modest, Pinterest-inspired, contemporary, elegant women's fashion serving Pakistan and Bangladesh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

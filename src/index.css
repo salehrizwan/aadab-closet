@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  
+  --color-gold-50: #fbf8f3;
+  --color-gold-100: #f6efe2;
+  --color-gold-200: #eadeca;
+  --color-gold-300: #dab98b;
+  --color-gold-400: #c9a063;
+  --color-gold-500: #b8860b; /* Champagne gold tint */
+  --color-gold-600: #a3760a;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: #ffffff;
+  color: #0d0d0d;
+}
+
+/* Custom luxury scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d4d8;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1aa;
+}
+
+::selection {
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+/* Custom fading effects and animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom glow */
+.gold-glow {
+  text-shadow: 0 0 10px rgba(184, 134, 11, 0.15);
+}
