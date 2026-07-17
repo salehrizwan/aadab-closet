@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const slideImages = [
-  '/entrance.png',
+  '/1st_enter.png',
   heroImage
 ];
 
