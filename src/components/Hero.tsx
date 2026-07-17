@@ -1,10 +1,11 @@
+import heroImage from '../assets/images/sapphire_style_hero2_1784351582658.jpg';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const slideImages = [
   '/entrance.png',
-  '/src/assets/images/sapphire_style_hero2_1784351582658.jpg'
+  heroImage
 ];
 
 const slidesData = [
