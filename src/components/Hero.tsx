@@ -72,7 +72,7 @@ export default function Hero({ onExplore, onNewArrivals }: HeroProps) {
             <img
               src={slideImages[current]}
               alt={currentSlide.title}
-              className="relative w-full h-full object-cover pointer-events-none z-10"
+            className="relative w-full h-full object-contain pointer-events-none z-10 bg-black"
               referrerPolicy="no-referrer"
             />
             {/* Subtle premium gradient overlay at bottom for text readability */}
